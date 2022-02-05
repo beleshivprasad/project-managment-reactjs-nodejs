@@ -1,0 +1,139 @@
+{"level":"error","message":"Database Connection Failed ","timestamp":"2022-01-26T17:34:52.881Z"}
+error: [object Object] {"timestamp":"2022-01-26T18:11:37.545Z"}
+error: [object Object] {"timestamp":"2022-01-26T18:14:12.978Z"}
+error: [{"value":"Programming","msg":"Not Blog Exists with this Title","param":"title","location":"params"}] {"timestamp":"2022-01-26T18:14:21.239Z"}
+error: MYSQL Connection Failed: SequelizeConnectionError: Unknown database 'blogWebsite' {"timestamp":"2022-01-27T04:30:02.741Z"}
+error: Sync Failed :  SequelizeConnectionError: Unknown database 'blogWebsite' {"timestamp":"2022-01-27T04:30:02.742Z"}
+error: MYSQL Connection Failed: SequelizeConnectionError: Unknown database 'blogWebsite' {"timestamp":"2022-01-27T04:35:20.313Z"}
+error: Sync Failed :  SequelizeConnectionError: Unknown database 'blogWebsite' {"timestamp":"2022-01-27T04:35:20.313Z"}
+error: Sync Failed :  SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object], `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, P' at line 1 {"timestamp":"2022-01-27T04:44:11.272Z"}
+error: Sync Failed :  SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object], `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, P' at line 1 {"timestamp":"2022-01-27T04:47:22.175Z"}
+error: Sync Failed :  SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object], `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, P' at line 1 {"timestamp":"2022-01-27T04:52:32.930Z"}
+error: Sync Failed :  SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object], `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, P' at line 1 {"timestamp":"2022-01-27T04:59:02.498Z"}
+error: Sync Failed :  SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object], `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, P' at line 1 {"timestamp":"2022-01-27T05:00:40.469Z"}
+error: Sync Failed :  SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object], `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, P' at line 1 {"timestamp":"2022-01-27T05:00:51.737Z"}
+error: Database Connection Failed  {"timestamp":"2022-01-27T06:46:36.856Z"}
+error: ReferenceError: logger is not defined  {"timestamp":"2022-01-27T07:08:23.863Z"}
+error: [{"value":"jon23@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T07:12:14.951Z"}
+error: [{"value":"jon@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T07:17:14.990Z"}
+error: Invalid Email or Password : arvind@gmail.com {"timestamp":"2022-01-27T07:17:56.677Z"}
+error: [{"value":"Programming is not hadrd","msg":"Blog Already Posted","param":"title","location":"body"}] {"timestamp":"2022-01-27T07:18:29.879Z"}
+error: [{"value":"Programming","msg":"Not Blog Exists with this Title","param":"title","location":"params"}] {"timestamp":"2022-01-27T07:18:35.200Z"}
+error: Fetch Blog Failed: arvind@gmail.com {"timestamp":"2022-01-27T07:18:39.972Z"}
+error: Fetch Blog Failed: arvind@gmail.com {"timestamp":"2022-01-27T07:28:10.205Z"}
+error: Fetch Blog Failed: arvind@gmail.com {"timestamp":"2022-01-27T07:28:36.801Z"}
+error: Fetch Blog Failed: arvind@gmail.com {"timestamp":"2022-01-27T07:30:01.834Z"}
+error: Fetch Blog Failed: arvind@gmail.com {"timestamp":"2022-01-27T07:30:27.279Z"}
+error: Fetch Blog Failed: arvind@gmail.com {"timestamp":"2022-01-27T07:30:58.365Z"}
+error: Fetch Blog Failed: arvind@gmail.com {"timestamp":"2022-01-27T07:32:18.211Z"}
+error: Fetch Blog Failed: arvind@gmail.com {"timestamp":"2022-01-27T07:32:33.635Z"}
+error: Fetch Blog Failed: arvind@gmail.com {"timestamp":"2022-01-27T07:33:06.933Z"}
+error: Fetch Blog Failed: arvind@gmail.com {"timestamp":"2022-01-27T07:35:15.916Z"}
+error: Fetch Blog Failed: arvind@gmail.com {"timestamp":"2022-01-27T07:35:35.915Z"}
+error: Fetch Blog Failed: arvind@gmail.com {"timestamp":"2022-01-27T07:36:59.855Z"}
+error: Fetch Blog Failed: arvind@gmail.com {"timestamp":"2022-01-27T07:37:11.964Z"}
+error: No Such Blog Exists:  {"timestamp":"2022-01-27T09:23:43.786Z"}
+error: [{"value":"jon@gmail.com","msg":"Not Blog Exists with Such Author","param":"email","location":"params"}] {"timestamp":"2022-01-27T09:24:30.500Z"}
+error: [{"value":"Programming","msg":"Not Blog Exists with this Title","param":"title","location":"params"}] {"timestamp":"2022-01-27T09:24:48.837Z"}
+error: [{"value":"Programming is not hadrd","msg":"Blog Already Posted","param":"title","location":"body"}] {"timestamp":"2022-01-27T09:29:50.506Z"}
+error: [{"value":"Programming is not hard","msg":"Blog Already Posted","param":"title","location":"body"}] {"timestamp":"2022-01-27T09:30:10.562Z"}
+error: [{"value":"Programming","msg":"Not Blog Exists with this Title","param":"title","location":"params"}] {"timestamp":"2022-01-27T09:39:06.385Z"}
+error: Blog Deletion Failed  :  null {"timestamp":"2022-01-27T09:39:14.393Z"}
+error: [{"value":"Programming is not hard","msg":"Not Blog Exists with this Title","param":"title","location":"params"}] {"timestamp":"2022-01-27T09:39:58.594Z"}
+error: Blog Deletion Failed  :  null {"timestamp":"2022-01-27T09:40:12.561Z"}
+error: Blog Deletion Failed  :  null {"timestamp":"2022-01-27T09:41:07.526Z"}
+error: [{"value":"Programming is not hard","msg":"Not Blog Exists with this Title","param":"title","location":"params"}] {"timestamp":"2022-01-27T09:42:33.003Z"}
+error: [{"value":"jon@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T18:59:13.280Z"}
+error: [{"value":"jon@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:06:54.471Z"}
+error: [{"value":"jon2@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:07:05.618Z"}
+error: [{"value":"jon2@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:07:10.023Z"}
+error: [{"value":"jon4@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:07:15.464Z"}
+error: [{"value":"jon1@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:07:21.355Z"}
+error: [{"value":"jon1@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:07:51.657Z"}
+error: [{"value":"jon1@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:08:22.942Z"}
+error: [{"value":"jon1@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:09:30.826Z"}
+error: [{"value":"jon1@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:11:57.165Z"}
+error: [{"value":"jon1@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:12:11.406Z"}
+error: [{"value":"jon1@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:12:18.136Z"}
+error: [{"value":"jon1@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:12:40.573Z"}
+error: [{"value":"jon1@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:12:57.518Z"}
+error: [{"value":"jon1@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:13:49.494Z"}
+error: [{"value":"jon1@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:15:50.804Z"}
+error: [{"value":"jon1@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:16:00.489Z"}
+error: [{"value":"jtest","msg":"Ivalid Email","param":"email","location":"body"},{"value":"jtest","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:18:35.209Z"}
+error: [{"value":"test@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:18:51.661Z"}
+error: [{"value":"test@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:19:26.014Z"}
+error: [{"value":"test@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:20:08.464Z"}
+error: [{"value":"test@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:20:43.373Z"}
+error: [{"value":"test@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:21:11.582Z"}
+error: [{"value":"jon@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:23:26.066Z"}
+error: [{"value":"jon@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:23:59.211Z"}
+error: [{"value":"test@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:32:37.585Z"}
+error: [{"value":"test@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:32:59.269Z"}
+error: [{"value":"test@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:33:44.588Z"}
+error: [{"value":"test@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:35:31.943Z"}
+error: [{"value":"test@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:35:54.491Z"}
+error: [{"value":"test@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:36:28.469Z"}
+error: [{"value":"test@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:36:54.352Z"}
+error: [{"value":"test@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:37:07.301Z"}
+error: [{"value":"test@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:37:42.066Z"}
+error: [{"value":"test@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:38:15.300Z"}
+error: [{"value":"test1@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:38:25.411Z"}
+error: [{"value":"arvind@gmail.com","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T19:40:47.475Z"}
+error: Invalid Email or Password : test@gmail.com {"timestamp":"2022-01-27T19:44:30.344Z"}
+error: Invalid Email or Password : test@gmail.com {"timestamp":"2022-01-27T19:44:44.829Z"}
+error: Invalid Email or Password : test@gmail.com {"timestamp":"2022-01-27T19:44:54.738Z"}
+error: Invalid Email or Password : test@gmail.com {"timestamp":"2022-01-27T19:45:15.215Z"}
+error: Invalid Email or Password : test@gmail.com {"timestamp":"2022-01-27T19:45:29.566Z"}
+error: Invalid Email or Password : test@gmail.com {"timestamp":"2022-01-27T19:45:36.896Z"}
+error: Invalid Email or Password : test@gmail.com {"timestamp":"2022-01-27T19:45:46.827Z"}
+error: Invalid Email or Password : test@gmail.com {"timestamp":"2022-01-27T19:46:22.563Z"}
+error: Invalid Email or Password : test@gmail.com {"timestamp":"2022-01-27T19:46:57.553Z"}
+error: Authentication Error: JsonWebTokenError: invalid signature {"timestamp":"2022-01-27T20:00:20.279Z"}
+error: Error: JsonWebTokenError: invalid signature  {"timestamp":"2022-01-27T20:00:20.280Z"}
+error: [{"value":"Programming is not hard","msg":"Blog Already Posted","param":"title","location":"body"}] {"timestamp":"2022-01-27T20:00:27.856Z"}
+error: [{"value":"Programming is not hard","msg":"Blog Already Posted","param":"title","location":"body"}] {"timestamp":"2022-01-27T20:01:25.344Z"}
+error: [{"value":"Programming is not hard","msg":"Blog Already Posted","param":"title","location":"body"}] {"timestamp":"2022-01-27T20:01:36.381Z"}
+error: [{"value":"Programming is not hard","msg":"Blog Already Posted","param":"title","location":"body"}] {"timestamp":"2022-01-27T20:03:44.443Z"}
+error: [{"value":"test@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-27T20:04:50.373Z"}
+error: Authentication Error: TypeError: User.findAll(...).select is not a function {"timestamp":"2022-01-27T20:15:12.127Z"}
+error: Authentication Error: Error: WHERE parameter "id" has invalid "undefined" value {"timestamp":"2022-01-27T20:17:41.568Z"}
+error: Error: Error: WHERE parameter "id" has invalid "undefined" value  {"timestamp":"2022-01-27T20:17:41.569Z"}
+error: Authentication Error: Error: WHERE parameter "email" has invalid "undefined" value {"timestamp":"2022-01-27T20:20:01.736Z"}
+error: Error: Error: WHERE parameter "email" has invalid "undefined" value  {"timestamp":"2022-01-27T20:20:01.737Z"}
+error: Authentication Error: Error: WHERE parameter "email" has invalid "undefined" value {"timestamp":"2022-01-27T20:20:27.477Z"}
+error: Error: Error: WHERE parameter "email" has invalid "undefined" value  {"timestamp":"2022-01-27T20:20:27.478Z"}
+error: Authentication Error: Error: WHERE parameter "email" has invalid "undefined" value {"timestamp":"2022-01-27T20:20:43.021Z"}
+error: Error: Error: WHERE parameter "email" has invalid "undefined" value  {"timestamp":"2022-01-27T20:20:43.022Z"}
+error: Authentication Error: TypeError: Cannot read properties of undefined (reading 'email') {"timestamp":"2022-01-27T20:26:48.196Z"}
+error: Error: TypeError: Cannot read properties of undefined (reading 'email')  {"timestamp":"2022-01-27T20:26:48.196Z"}
+error: Authentication Error: TypeError: Cannot read properties of undefined (reading 'email') {"timestamp":"2022-01-27T20:27:24.780Z"}
+error: Error: TypeError: Cannot read properties of undefined (reading 'email')  {"timestamp":"2022-01-27T20:27:24.781Z"}
+error: Blog Adding Failed : : null {"timestamp":"2022-01-27T20:29:38.785Z"}
+error: [{"value":"Programming is not hard","msg":"Blog Already Posted","param":"title","location":"body"}] {"timestamp":"2022-01-27T20:31:14.750Z"}
+error: Blog Adding Failed : : Error: Invalid value { title: 'Programming is not hard' } {"timestamp":"2022-01-27T20:31:44.303Z"}
+error: [{"value":"Programming is not hard","msg":"Blog Already Posted","param":"title","location":"body"}] {"timestamp":"2022-01-27T20:33:42.051Z"}
+error: Blog Adding Failed : : Error: Invalid value { title: 'Programming is not hard and not easy' } {"timestamp":"2022-01-27T20:34:03.028Z"}
+error: [{"value":"Programming is not hard and not easy","msg":"Blog Already Posted","param":"title","location":"body"}] {"timestamp":"2022-01-27T20:35:42.379Z"}
+error: Blog Adding Failed : : Error: Invalid value { title: 'Programming is not hard and ndot easy' } {"timestamp":"2022-01-27T20:35:45.463Z"}
+error: [{"value":"Programming is not hard and ndot easy","msg":"Blog Already Posted","param":"title","location":"body"}] {"timestamp":"2022-01-27T20:37:19.381Z"}
+error: Blog Adding Failed : : Error: Invalid value { title: 'Programming is not hard adnd ndot easy' } {"timestamp":"2022-01-27T20:37:30.824Z"}
+error: [{"value":"Programming is not hard adnd ndot easy","msg":"Blog Already Posted","param":"title","location":"body"}] {"timestamp":"2022-01-27T20:38:44.603Z"}
+error: [{"value":"Programming is not hard adnd ndot easy","msg":"Blog Already Posted","param":"title","location":"body"}] {"timestamp":"2022-01-27T20:39:37.182Z"}
+error: Blog Adding Failed : : Error: Invalid value { title: 'Programming is not hard adnd ndotd easy' } {"timestamp":"2022-01-27T20:39:39.775Z"}
+error: [{"value":"Programming is not hard adnd ndotd easy","msg":"Blog Already Posted","param":"title","location":"body"}] {"timestamp":"2022-01-27T20:40:29.280Z"}
+error: Blog Adding Failed : : Error: Invalid value { title: 'Programming is not hard ddadnd ndotd easy' } {"timestamp":"2022-01-27T20:40:51.464Z"}
+error: Blog Adding Failed : : Error: Invalid value { title: 'Programming is not hard ddadnd ndotd deasy' } {"timestamp":"2022-01-27T20:41:32.153Z"}
+error: [{"value":"Programming is not hard ddadndd ndotd deasy","msg":"Blog Already Posted","param":"title","location":"body"}] {"timestamp":"2022-01-27T20:43:45.175Z"}
+error: [{"value":"Programming is ndot hard ddadndd ndotd deasy","msg":"Blog Already Posted","param":"title","location":"body"}] {"timestamp":"2022-01-27T20:44:25.421Z"}
+error: Blog Adding Failed : : null {"timestamp":"2022-01-27T20:44:34.008Z"}
+error: [{"value":"Programming is ndot hard ddaedndd ndotd deasy","msg":"Blog Already Posted","param":"title","location":"body"}] {"timestamp":"2022-01-27T20:46:43.159Z"}
+error: Blog Adding Failed : : null {"timestamp":"2022-01-27T20:46:45.835Z"}
+error: [{"value":"Programming is ndot hard ddaedndd ndotd ddeasy","msg":"Blog Already Posted","param":"title","location":"body"}] {"timestamp":"2022-01-27T20:47:46.234Z"}
+error: [{"value":"Programming is ndot hard ddaeddndd ndotd ddeasy","msg":"Blog Already Posted","param":"title","location":"body"}] {"timestamp":"2022-01-27T20:48:00.794Z"}
+error: [{"value":"test@gmail.com","msg":"Email Already Exists","param":"email","location":"body"}] {"timestamp":"2022-01-28T05:59:11.718Z"}
+error: [{"value":"Programming ","msg":"Not Blog Exists with this Title","param":"title","location":"params"}] {"timestamp":"2022-01-28T06:12:31.547Z"}
+error: Authentication Error: Error: WHERE parameter "email" has invalid "undefined" value {"timestamp":"2022-01-28T06:20:20.478Z"}
+error: Error: Error: WHERE parameter "email" has invalid "undefined" value  {"timestamp":"2022-01-28T06:20:20.479Z"}
+error: [{"value":"61ef75b94f616b80e7592950","msg":"Invalid Blog ID","param":"id","location":"params"},{"value":"61ef75b94f616b80e7592950","msg":"Not Blog Exists with this Title","param":"id","location":"params"}] {"timestamp":"2022-01-28T06:28:11.408Z"}
+error: [{"value":"29","msg":"Not Blog Exists with this Title","param":"id","location":"params"}] {"timestamp":"2022-01-28T06:28:25.942Z"}

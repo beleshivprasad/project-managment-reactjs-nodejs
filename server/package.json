@@ -1,0 +1,39 @@
+{
+  "name": "node_training_2022",
+  "version": "1.0.0",
+  "description": "Nodejs Training by Sunil Sonawane Sir",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunil4sonawane/node_training_2022.git"
+  },
+  "author": "shivprasad bele",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sunil4sonawane/node_training_2022/issues"
+  },
+  "homepage": "https://github.com/sunil4sonawane/node_training_2022#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1",
+    "dotenv": "^14.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.7",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.14.1",
+    "sequelize-cli": "^6.4.1",
+    "winston": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
