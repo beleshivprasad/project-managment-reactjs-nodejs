@@ -1,9 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router";
+const Header = ({ isLoggedIn, onSuccessLogout }) => {
+  const [isLogged, setIsLogged] = useState(isLoggedIn);
+  const navigate = useNavigate();
 
-const Header = () => {
-  const [isLogged, setIsLogged] = useState(false);
+  useEffect(() => {
+    setIsLogged(isLoggedIn);
+  }, [isLoggedIn]);
 
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
@@ -31,10 +36,21 @@ const Header = () => {
                   title="Shivprasad Bele"
                   id="collasible-nav-dropdown"
                 >
-                  <NavDropdown.Item>
+                  <NavDropdown.Item
+                    onClick={() => {
+                      navigate("/dashboard/myprofile");
+                    }}
+                  >
                     <i className="fas fa-user-circle"></i> My Profile
                   </NavDropdown.Item>
-                  <NavDropdown.Item>
+                  <NavDropdown.Item
+                    onClick={() => {
+                      localStorage.removeItem("token");
+                      setIsLogged("");
+                      onSuccessLogout();
+                      navigate("/");
+                    }}
+                  >
                     <i className="fas fa-sign-out-alt"></i> Logout
                   </NavDropdown.Item>
                 </NavDropdown>
@@ -46,8 +62,8 @@ const Header = () => {
                 <NavLink className="nav-link" to="/user/login">
                   <i className="fas fa-sign-out-alt"></i> Login
                 </NavLink>
-                <NavLink className="nav-link" to="/user/login">
-                  Register
+                <NavLink className="nav-link" to="/user/register">
+                  <i className="fas fa-user-circle"></i> Register
                 </NavLink>
               </Nav>
             </>

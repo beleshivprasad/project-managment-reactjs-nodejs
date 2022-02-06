@@ -11,7 +11,14 @@ const Projects = () => {
           {data?.map((item, index) => {
             return (
               <Card style={{ width: "18rem" }} key={item.id}>
-                <Card.Img variant="top" src={item.image_url} />
+                <Card.Img
+                  variant="top"
+                  src={item.image_url}
+                  style={{
+                    maxWidth: "200px",
+                    minHeight: "200px",
+                  }}
+                />
                 <Card.Body>
                   <Card.Title>{item.title}</Card.Title>
                   <Card.Text>{item.description}</Card.Text>

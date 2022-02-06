@@ -28,7 +28,14 @@ const Users = () => {
           {data?.map((item) => {
             return (
               <Card style={{ width: "18rem" }} key={item.id}>
-                <Card.Img variant="top" src={item.avatar} />
+                <Card.Img
+                  variant="top"
+                  src={item.avatar}
+                  style={{
+                    maxWidth: "200px",
+                    minHeight: "200px",
+                  }}
+                />
                 <Card.Body>
                   <Card.Title>
                     {item.first_name} {item.last_name}

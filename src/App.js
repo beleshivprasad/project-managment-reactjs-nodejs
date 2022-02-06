@@ -1,6 +1,7 @@
 import "./Styles/App.css";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
+import { useState } from "react";
 
 //Importing Components
 import Header from "./Components/Header/Header";
@@ -14,28 +15,65 @@ import Features from "./Pages/Features/Features";
 import Projects from "./Pages/Projects/Projects";
 import Users from "./Pages/Users/Users";
 import About from "./Pages/About/About";
-import { useState } from "react";
+import MyProfile from "./Pages/MyProfile/MyProfile";
 
 function App() {
-  const [token, setToken] = useState();
-  if (!token) {
-    return <Login></Login>
-  }
+  const [token, setToken] = useState(localStorage.getItem("token"));
+  let isLoggedIn = token;
+  console.log("App Called");
+  console.log(token);
+
+  const onSuccessLogin = (tok) => {
+    setToken(localStorage.getItem("token"));
+    isLoggedIn = tok;
+  };
+  const onSuccessLogout = (tok) => {
+    setToken(localStorage.getItem("token"));
+    isLoggedIn = tok;
+  };
 
   return (
-    <BrowserRouter>
-      <Header />
+    <>
+      <Header isLoggedIn={isLoggedIn} onSuccessLogout={onSuccessLogout} />
       <Routes>
-        <Route exact path="/" element={<Home />}></Route>
-        <Route exact path="/users" element={<Users />}></Route>
-        <Route exact path="/user/login" element={<Login />}></Route>
-        <Route exact path="/user/register" element={<Register />}></Route>
-        <Route exact path="/dashboard/project" element={<Projects />}></Route>
+        {/* Non Authenticated Routes */}
+        <Route exact path="/" element={<Home></Home>}></Route>
         <Route exact path="/dashboard/features" element={<Features />}></Route>
         <Route exact path="/dashboard/about" element={<About />}></Route>
+
+        {/* Authenticated Routes  */}
+        <Route
+          exact
+          path="/user"
+          element={token ? <Users /> : <Navigate to="/user/login"></Navigate>}
+        ></Route>
+        <Route
+          exact
+          path="/dashboard/project"
+          element={
+            token ? <Projects /> : <Navigate to="/user/login"></Navigate>
+          }
+        ></Route>
+        <Route
+          exact
+          path="/dashboard/myprofile"
+          element={
+            token ? <MyProfile /> : <Navigate to="/user/login"></Navigate>
+          }
+        ></Route>
+
+        {/* Login Route */}
+        <Route
+          exact
+          path="/user/login"
+          element={<Login onSuccessLogin={onSuccessLogin} />}
+        ></Route>
+
+        {/* Register Route */}
+        <Route exact path="/user/register" element={<Register />}></Route>
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </>
   );
 }
 

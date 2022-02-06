@@ -77,7 +77,7 @@ const Register = () => {
         </Row>
         <Row>
           <Form onSubmit={submitHandler}>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3" controlId="name">
               <Form.Label>Name </Form.Label>
               <Form.Control
                 type="text"
@@ -87,7 +87,7 @@ const Register = () => {
               />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3" controlId="email">
               <Form.Label>Email address</Form.Label>
               <Form.Control
                 type="email"
@@ -97,7 +97,7 @@ const Register = () => {
               />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3" controlId="phone">
               <Form.Label>Phone</Form.Label>
               <Form.Control
                 type="text"
@@ -107,19 +107,21 @@ const Register = () => {
               />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Group className="mb-3" controlId="password">
               <Form.Label>Password</Form.Label>
               <Form.Control
                 type="password"
+                autoComplete=""
                 placeholder="Password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
               />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Group className="mb-3" controlId="cnfpassword">
               <Form.Label>Confirm Password</Form.Label>
               <Form.Control
+                autoComplete=""
                 type="password"
                 placeholder="Confirm Password"
                 value={confirmPassword}

@@ -4,16 +4,19 @@ import { Form, Button, Row, Col, Container } from "react-bootstrap";
 
 import axios from "axios";
 
+import { useNavigate } from "react-router";
+
 //importing Components
 import Loading from "../../Components/Alerts/Loading";
 import Main from "../../Components/Main/Main";
 import ErrorMessage from "../../Components/Alerts/ErrorMessage";
 
-const Login = () => {
+const Login = (props) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
 
   //Validation Function
   const fieldValidation = async () => {
@@ -53,13 +56,22 @@ const Login = () => {
         config
       );
 
-      console.log(data.token === "QpwL5tke4Pnpja7X4");
-      if (data.token === "QpwL5tke4Pnpja7X4") {
-        localStorage.setItem("userInfo", JSON.stringify(data));
-      } else {
+      if (!data.token) {
         setError("Login Failed");
+      } else {
+        try {
+          localStorage.setItem("token", JSON.stringify(data.token));
+          props.onSuccessLogin(data.token);
+          navigate("/");
+        } catch (error) {
+          setError(`${error}`);
+          setLoading(false);
+          setTimeout(() => {
+            setLoading(false);
+            setError(false);
+          }, 3000);
+        }
       }
-
       setLoading(false);
     } catch (error) {
       setError(error.response.data.message);
@@ -72,6 +84,7 @@ const Login = () => {
     setEmail("");
     setPassword("");
   };
+
   return (
     <Main title="Login">
       <Container
@@ -84,10 +97,11 @@ const Login = () => {
         {loading && <Loading></Loading>}
         <Row>
           <Form onSubmit={submitHandler} onReset={resetHandler}>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3" controlId="email">
               <Form.Label>Email address</Form.Label>
               <Form.Control
                 name="email"
+                autoComplete={email}
                 type="email"
                 placeholder="Enter email"
                 value={email}
@@ -100,9 +114,10 @@ const Login = () => {
               </Form.Text>
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Group className="mb-3" controlId="password">
               <Form.Label>Password</Form.Label>
               <Form.Control
+                autoComplete={password}
                 type="password"
                 placeholder="Password"
                 value={password}
