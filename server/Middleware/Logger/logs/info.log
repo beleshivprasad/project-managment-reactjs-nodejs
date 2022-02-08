@@ -2040,3 +2040,13 @@ info: Server Started On PORT : 5004 {"timestamp":"2022-01-28T10:29:09.509Z"}
 info: Database Connected Succesfully : cluster0-shard-00-02.fdes6.mongodb.net {"timestamp":"2022-01-28T10:29:10.548Z"}
 info: Server Started On PORT : 5004 {"timestamp":"2022-02-05T10:52:34.562Z"}
 info: Database Connected Succesfully : cluster0-shard-00-01.fdes6.mongodb.net {"timestamp":"2022-02-05T10:52:35.650Z"}
+info: Server Started On PORT : 5004 {"timestamp":"2022-02-08T08:26:44.245Z"}
+info: Database Connected Succesfully : cluster0-shard-00-00.fdes6.mongodb.net {"timestamp":"2022-02-08T08:26:44.959Z"}
+info: Successfully Registerd : test@gmail.com {"timestamp":"2022-02-08T08:28:45.643Z"}
+error: [{"msg":"Please Enter First Name","param":"fname","location":"body"},{"msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"msg":"Please Enter First Name","param":"lname","location":"body"},{"msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"msg":"Please Enter Email","param":"email","location":"body"},{"msg":"Ivalid Email","param":"email","location":"body"},{"msg":"Email Already Exists","param":"email","location":"body"},{"msg":"Please Enter Email","param":"password","location":"body"},{"msg":"Minimum Lenght should be 8 characters","param":"password","location":"body"}] {"timestamp":"2022-02-08T08:30:40.008Z"}
+error: [{"value":"shiv@gmail.com","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T10:22:43.336Z"}
+info: Server Started On PORT : 5004 {"timestamp":"2022-02-08T10:35:52.153Z"}
+info: Database Connected Succesfully : cluster0-shard-00-00.fdes6.mongodb.net {"timestamp":"2022-02-08T10:35:52.656Z"}
+error: Error: Not Found: /user/login  {"timestamp":"2022-02-08T10:49:39.665Z"}
+error: Error: Not Found: /favicon.ico  {"timestamp":"2022-02-08T10:49:39.918Z"}
+error: Error: Not Found: /user/login  {"timestamp":"2022-02-08T10:50:40.956Z"}

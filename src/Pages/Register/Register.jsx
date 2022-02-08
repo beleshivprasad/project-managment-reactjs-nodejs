@@ -7,11 +7,12 @@ import ErrorMessage from "../../Components//Alerts/ErrorMessage";
 import Loading from "../../Components/Alerts/Loading";
 
 const Register = () => {
-  const [name, setName] = useState("");
+  const [fname, setFname] = useState("");
+  const [lname, setLname] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
-  const [phone, setPhone] = useState("");
+  const [gender, setGender] = useState("");
   const [message, setMessage] = useState(null);
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -19,7 +20,14 @@ const Register = () => {
 
   const submitHandler = async (e) => {
     e.preventDefault();
-    if (!name || !email || !phone || !password || !confirmPassword) {
+    if (
+      !fname ||
+      !lname ||
+      !email ||
+      !gender ||
+      !password ||
+      !confirmPassword
+    ) {
       setMessage("All Fields are Required..!");
       setInterval(() => {
         setMessage(null);
@@ -42,8 +50,9 @@ const Register = () => {
         const { data } = await axios.post(
           "/users/register",
           {
-            name,
-            phone,
+            fname,
+            lname,
+            gender,
             email,
             password,
           },
@@ -77,13 +86,22 @@ const Register = () => {
         </Row>
         <Row>
           <Form onSubmit={submitHandler}>
-            <Form.Group className="mb-3" controlId="name">
+            <Form.Group className="mb-3" controlId="fname">
               <Form.Label>Name </Form.Label>
               <Form.Control
                 type="text"
-                placeholder="Enter Name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
+                placeholder="Enter First Name"
+                value={fname}
+                onChange={(e) => setFname(e.target.value)}
+              />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="lname">
+              <Form.Label>Name </Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Enter Last Name"
+                value={lname}
+                onChange={(e) => setLname(e.target.value)}
               />
             </Form.Group>
 
@@ -96,15 +114,17 @@ const Register = () => {
                 onChange={(e) => setEmail(e.target.value)}
               />
             </Form.Group>
-
+            <br />
             <Form.Group className="mb-3" controlId="phone">
-              <Form.Label>Phone</Form.Label>
               <Form.Control
-                type="text"
-                placeholder="Enter Phone Number"
-                value={phone}
-                onChange={(e) => setPhone(e.target.value)}
-              />
+                as="select"
+                onChange={(e) => setGender(e.target.value)}
+              >
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+              </Form.Control>
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="password">

@@ -2,13 +2,20 @@ import React, { useEffect, useState } from "react";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { useNavigate } from "react-router";
+import { useSelector } from "react-redux";
+import { userConstants } from "../../redux/constants/userConstants";
+import { useDispatch } from "react-redux";
 const Header = ({ isLoggedIn, onSuccessLogout }) => {
-  const [isLogged, setIsLogged] = useState(isLoggedIn);
-  const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const userLogin = useSelector((state) => state.userLogin);
+  const { token } = userLogin;
 
+  const navigate = useNavigate();
   useEffect(() => {
-    setIsLogged(isLoggedIn);
-  }, [isLoggedIn]);
+    if (!token) {
+      navigate("/");
+    }
+  }, []);
 
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
@@ -29,13 +36,10 @@ const Header = ({ isLoggedIn, onSuccessLogout }) => {
               About
             </NavLink>
           </Nav>
-          {isLogged ? (
+          {token ? (
             <>
               <Nav>
-                <NavDropdown
-                  title="Shivprasad Bele"
-                  id="collasible-nav-dropdown"
-                >
+                <NavDropdown title={"User "} id="collasible-nav-dropdown">
                   <NavDropdown.Item
                     onClick={() => {
                       navigate("/dashboard/myprofile");
@@ -46,9 +50,8 @@ const Header = ({ isLoggedIn, onSuccessLogout }) => {
                   <NavDropdown.Item
                     onClick={() => {
                       localStorage.removeItem("token");
-                      setIsLogged("");
-                      onSuccessLogout();
-                      navigate("/");
+                      localStorage.removeItem("userInfo");
+                      dispatch({ type: userConstants.USER_LOGOUT });
                     }}
                   >
                     <i className="fas fa-sign-out-alt"></i> Logout

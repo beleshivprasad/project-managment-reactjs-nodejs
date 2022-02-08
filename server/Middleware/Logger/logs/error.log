@@ -137,3 +137,8 @@ error: Authentication Error: Error: WHERE parameter "email" has invalid "undefin
 error: Error: Error: WHERE parameter "email" has invalid "undefined" value  {"timestamp":"2022-01-28T06:20:20.479Z"}
 error: [{"value":"61ef75b94f616b80e7592950","msg":"Invalid Blog ID","param":"id","location":"params"},{"value":"61ef75b94f616b80e7592950","msg":"Not Blog Exists with this Title","param":"id","location":"params"}] {"timestamp":"2022-01-28T06:28:11.408Z"}
 error: [{"value":"29","msg":"Not Blog Exists with this Title","param":"id","location":"params"}] {"timestamp":"2022-01-28T06:28:25.942Z"}
+error: [{"msg":"Please Enter First Name","param":"fname","location":"body"},{"msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"msg":"Please Enter First Name","param":"lname","location":"body"},{"msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"msg":"Please Enter Email","param":"email","location":"body"},{"msg":"Ivalid Email","param":"email","location":"body"},{"msg":"Email Already Exists","param":"email","location":"body"},{"msg":"Please Enter Email","param":"password","location":"body"},{"msg":"Minimum Lenght should be 8 characters","param":"password","location":"body"}] {"timestamp":"2022-02-08T08:30:40.008Z"}
+error: [{"value":"shiv@gmail.com","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T10:22:43.336Z"}
+error: Error: Not Found: /user/login  {"timestamp":"2022-02-08T10:49:39.666Z"}
+error: Error: Not Found: /favicon.ico  {"timestamp":"2022-02-08T10:49:39.918Z"}
+error: Error: Not Found: /user/login  {"timestamp":"2022-02-08T10:50:40.957Z"}

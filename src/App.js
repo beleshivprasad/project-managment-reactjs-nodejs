@@ -1,7 +1,6 @@
 import "./Styles/App.css";
 
-import { Routes, Route, Navigate } from "react-router-dom";
-import { useState } from "react";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 //Importing Components
 import Header from "./Components/Header/Header";
@@ -16,25 +15,14 @@ import Projects from "./Pages/Projects/Projects";
 import Users from "./Pages/Users/Users";
 import About from "./Pages/About/About";
 import MyProfile from "./Pages/MyProfile/MyProfile";
+import { useSelector } from "react-redux";
 
 function App() {
-  const [token, setToken] = useState(localStorage.getItem("token"));
-  let isLoggedIn = token;
-  console.log("App Called");
-  console.log(token);
-
-  const onSuccessLogin = (tok) => {
-    setToken(localStorage.getItem("token"));
-    isLoggedIn = tok;
-  };
-  const onSuccessLogout = (tok) => {
-    setToken(localStorage.getItem("token"));
-    isLoggedIn = tok;
-  };
-
+  const userLogin = useSelector((state) => state.userLogin);
+  const { token } = userLogin;
   return (
-    <>
-      <Header isLoggedIn={isLoggedIn} onSuccessLogout={onSuccessLogout} />
+    <BrowserRouter>
+      <Header />
       <Routes>
         {/* Non Authenticated Routes */}
         <Route exact path="/" element={<Home></Home>}></Route>
@@ -63,17 +51,13 @@ function App() {
         ></Route>
 
         {/* Login Route */}
-        <Route
-          exact
-          path="/user/login"
-          element={<Login onSuccessLogin={onSuccessLogin} />}
-        ></Route>
+        <Route exact path="/user/login" element={<Login />}></Route>
 
         {/* Register Route */}
         <Route exact path="/user/register" element={<Register />}></Route>
       </Routes>
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 

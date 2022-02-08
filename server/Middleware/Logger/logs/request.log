@@ -420,3 +420,16 @@ POST /dashboard/blog/add 201 245 - 76.929 mscl
 GET /dashboard/blog 200 867 - 9.723 mscl
 GET /dashboard/blog 200 2 - 6.788 mscl
 GET /dashboard/blog 200 621 - 6.869 mscl
+POST /user/register 201 215 - 275.636 mscl
+POST /user/register 400 648 - 3.710 mscl
+POST /user/login 400 102 - 19.881 mscl
+OPTIONS /user/login 200 4 - 0.902 mscl
+OPTIONS /user/login 200 4 - 0.919 mscl
+OPTIONS /user/login 200 4 - 0.529 mscl
+OPTIONS /user/login 200 4 - 0.795 mscl
+OPTIONS /user/login 200 4 - 0.378 mscl
+OPTIONS /user/login 200 4 - 0.607 mscl
+OPTIONS /user/login 200 4 - 2.750 mscl
+GET /user/login 404 1540 - 5.340 mscl
+GET /favicon.ico 404 1570 - 1.691 mscl
+GET /user/login 404 1540 - 1.543 mscl
