@@ -15,6 +15,7 @@ const registerValidation = [
     .withMessage("Please Enter First Name")
     .isLength({ min: 3 })
     .withMessage("Minimum Lenght should be 3 characters"),
+  check("gender").exists().withMessage("Please Select Name"),
   check("email")
     .exists()
     .withMessage("Please Enter Email")

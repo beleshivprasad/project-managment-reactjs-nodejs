@@ -42,7 +42,7 @@ export const login = (email, password) => async (dispatch) => {
         },
       };
 
-      const data = await axios.post(
+      const { data } = await axios.post(
         "/user/login",
         {
           email,
@@ -50,29 +50,106 @@ export const login = (email, password) => async (dispatch) => {
         },
         config
       );
-      console.log("data",data);
-      // if (!data.token) {
-      //   dispatch({
-      //     type: userConstants.USER_LOGIN_FAILED,
-      //     payload: "Login Failed",
-      //   });
-      // } else {
-      //   localStorage.setItem("userInfo", JSON.stringify(data));
-      //   localStorage.setItem("token", data.token);
-      //   dispatch({
-      //     type: userConstants.USER_LOGIN_SUCCESS,
-      //     payload: {
-      //       userInfo: data,
-      //       token: data.token,
-      //     },
-      //   });
-      // }
+      console.log(data);
+
+      const { userData, errors } = data;
+
+      if (errors.length !== 0) {
+        errors.forEach((item) => {
+          dispatch({
+            type: userConstants.SET_ERROR,
+            payload: { error: item.msg },
+          });
+        });
+
+        setTimeout(() => {
+          dispatch({
+            type: userConstants.SET_ERROR,
+            payload: { error: "" },
+          });
+        }, 3000);
+      } else {
+        localStorage.setItem("userInfo", JSON.stringify(data));
+        localStorage.setItem("token", data.token);
+        dispatch({
+          type: userConstants.USER_LOGIN_SUCCESS,
+          payload: {
+            userInfo: data,
+            token: data.token,
+          },
+        });
+      }
     }
   } catch (error) {
-    console.log(JSON.stringify(error))
-      dispatch({
+    dispatch({
       type: userConstants.USER_LOGIN_FAILED,
       payload: { error: error.response.data.message, loading: false },
     });
   }
 };
+
+export const register =
+  (fname, lname, email, gender, password, confirmPassword) =>
+  async (dispatch) => {
+    try {
+      dispatch({ type: userConstants.USER_REGISTER_REQUEST });
+      const config = {
+        headers: {
+          "Content-type": "application/json",
+        },
+      };
+
+      const { data } = await axios.post(
+        "/user/register",
+        {
+          fname,
+          lname,
+          gender,
+          email,
+          password,
+        },
+        config
+      );
+      const { userData, errors } = data;
+      console.log(data);
+
+      if (errors.length !== 0) {
+        dispatch({
+          type: userConstants.SET_ERROR,
+          payload: { error: `${errors[0].param} ${errors[0].msg}` },
+        });
+
+        setTimeout(() => {
+          dispatch({
+            type: userConstants.SET_ERROR,
+            payload: { error: "" },
+          });
+        }, 3000);
+      } else {
+        localStorage.setItem("userInfo", JSON.stringify(data));
+        localStorage.setItem("token", data.token);
+        dispatch({
+          type: userConstants.USER_LOGIN_SUCCESS,
+          payload: {
+            userInfo: data,
+            token: data.token,
+          },
+        });
+      }
+    } catch (error) {
+      dispatch({
+        type: userConstants.SET_ERROR,
+        payload: { error: error.response.data.message },
+      });
+      dispatch({
+        type: userConstants.SET_LOADING,
+        payload: false,
+      });
+      setInterval(() => {
+        dispatch({
+          type: userConstants.SET_ERROR,
+          payload: { error: error.response.data.message },
+        });
+      }, 2000);
+    }
+  };

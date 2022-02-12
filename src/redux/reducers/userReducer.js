@@ -25,9 +25,33 @@ export const userLoginReducer = (
     case userConstants.SET_LOADING:
       return { ...state, loading: payload };
     case userConstants.SET_ERROR:
-      return { ...state, error: payload.error };
+      return { ...state, error: payload.error, loading: false };
     case userConstants.SET_SUCCESS:
-      return { ...state, success: payload.success };
+      return { ...state, success: payload.success, loading: false };
+    default:
+      return {};
+  }
+};
+
+export const userRegisterReducer = (state = {}, action) => {
+  const { type, payload } = action;
+  switch (type) {
+    case userConstants.USER_REGISTER_REQUEST:
+      return { loading: true };
+    case userConstants.USER_REGISTER_FAILED:
+      return { loading: false, error: payload.error };
+    case userConstants.USER_REGISTER_SUCCESS:
+      return {
+        loading: false,
+        userInfo: payload.data,
+        success: payload.success,
+      };
+    case userConstants.SET_LOADING:
+      return { ...state, loading: payload };
+    case userConstants.SET_ERROR:
+      return { ...state, error: payload.error, loading: false };
+    case userConstants.SET_SUCCESS:
+      return { ...state, success: payload.success, loading: false };
     default:
       return {};
   }

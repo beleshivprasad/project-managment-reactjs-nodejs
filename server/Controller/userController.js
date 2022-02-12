@@ -7,20 +7,20 @@ const registerUser = asyncHandler(async (req, res) => {
   const errors = validationResult(req);
   if (errors.errors.length) {
     logger.error(`${await JSON.stringify(errors.errors)}`);
-    res.status(400).json(errors);
+    res.json({ errors: errors.errors, userData: {} });
   } else {
     register(req, res);
   }
 });
 
-const loginUser = asyncHandler(async (req, res) => {
+const loginUser = async (req, res) => {
   const errors = validationResult(req);
   if (errors.errors.length) {
     logger.error(`${await JSON.stringify(errors.errors)}`);
-    res.status(400).json(errors);
+    res.json({ errors: errors.errors, userData: {} });
   } else {
     login(req, res);
   }
-});
+};
 
 module.exports = { registerUser, loginUser };

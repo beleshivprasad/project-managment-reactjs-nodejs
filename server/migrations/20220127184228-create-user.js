@@ -16,6 +16,10 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
+      gender: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
       email: {
         type: Sequelize.STRING,
         allowNull: false,
@@ -26,14 +30,14 @@ module.exports = {
       },
       isAdmin: {
         type: Sequelize.BOOLEAN,
-        default:false
+        default: false,
       },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
       },
       updatedAt: {
-        allowNull: false,//socket.io //nqtt
+        allowNull: false, //socket.io //nqtt
         type: Sequelize.DATE,
       },
     });

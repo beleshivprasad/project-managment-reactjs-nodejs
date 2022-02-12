@@ -2050,3 +2050,74 @@ info: Database Connected Succesfully : cluster0-shard-00-00.fdes6.mongodb.net {"
 error: Error: Not Found: /user/login  {"timestamp":"2022-02-08T10:49:39.665Z"}
 error: Error: Not Found: /favicon.ico  {"timestamp":"2022-02-08T10:49:39.918Z"}
 error: Error: Not Found: /user/login  {"timestamp":"2022-02-08T10:50:40.956Z"}
+info: Server Started On PORT : 5004 {"timestamp":"2022-02-08T17:08:14.164Z"}
+info: Database Connected Succesfully : cluster0-shard-00-00.fdes6.mongodb.net {"timestamp":"2022-02-08T17:08:15.346Z"}
+error: Error: Not Found: /user/user/login  {"timestamp":"2022-02-08T17:08:20.849Z"}
+error: Error: Not Found: /user/user/login  {"timestamp":"2022-02-08T17:08:46.335Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:09:48.982Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:09:57.115Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:10:37.102Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:16:15.840Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:16:50.215Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:17:16.786Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:17:24.020Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:17:34.317Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:17:37.445Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:17:45.207Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:17:46.549Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:18:26.472Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:18:43.717Z"}
+info: Server Started On PORT : 5004 {"timestamp":"2022-02-08T17:18:49.913Z"}
+info: Database Connected Succesfully : cluster0-shard-00-00.fdes6.mongodb.net {"timestamp":"2022-02-08T17:18:50.878Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:18:54.209Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:19:29.527Z"}
+info: Server Started On PORT : 5004 {"timestamp":"2022-02-08T17:20:29.102Z"}
+info: Database Connected Succesfully : cluster0-shard-00-01.fdes6.mongodb.net {"timestamp":"2022-02-08T17:20:30.277Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:20:49.450Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:21:07.602Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:21:32.333Z"}
+info: Server Started On PORT : 5004 {"timestamp":"2022-02-08T17:23:53.822Z"}
+info: Database Connected Succesfully : cluster0-shard-00-00.fdes6.mongodb.net {"timestamp":"2022-02-08T17:23:54.964Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:24:01.823Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:28:34.097Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:29:33.654Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:31:57.897Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:32:02.968Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:32:34.227Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:32:35.787Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:32:37.708Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:32:47.987Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:33:20.037Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:33:20.962Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:34:07.692Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:34:08.550Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:34:09.079Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:34:45.995Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:34:47.031Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:35:05.052Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:36:57.688Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:37:56.492Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:08:25.164Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:10:18.733Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T18:13:06.733Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:13:13.542Z"}
+info: Server Started On PORT : 5004 {"timestamp":"2022-02-08T18:13:31.036Z"}
+info: Database Connected Succesfully : cluster0-shard-00-00.fdes6.mongodb.net {"timestamp":"2022-02-08T18:13:32.194Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"eve.holt@reqres.in","msg":"Email Already Exists","param":"email","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:13:33.419Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T18:15:03.921Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"eve.holt@reqres.in","msg":"Email Already Exists","param":"email","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:15:09.252Z"}
+info: Server Started On PORT : 5004 {"timestamp":"2022-02-08T18:15:37.595Z"}
+info: Database Connected Succesfully : cluster0-shard-00-00.fdes6.mongodb.net {"timestamp":"2022-02-08T18:15:38.733Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T18:15:45.371Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T18:16:06.396Z"}
+info: Server Started On PORT : 5004 {"timestamp":"2022-02-08T18:16:56.829Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T18:16:57.304Z"}
+info: Database Connected Succesfully : cluster0-shard-00-00.fdes6.mongodb.net {"timestamp":"2022-02-08T18:16:57.891Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T18:17:04.352Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"eve.holt@reqres.in","msg":"Email Already Exists","param":"email","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:17:41.456Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"eve.holt@reqres.in","msg":"Email Already Exists","param":"email","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:18:27.750Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"eve.holt@reqres.in","msg":"Email Already Exists","param":"email","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:19:07.207Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"eve.holt@reqres.in","msg":"Email Already Exists","param":"email","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:20:04.793Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"eve.holt@reqres.in","msg":"Email Already Exists","param":"email","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:21:24.254Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"eve.holt@reqres.in","msg":"Email Already Exists","param":"email","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:22:12.981Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"eve.holt@reqres.in","msg":"Email Already Exists","param":"email","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:22:38.375Z"}

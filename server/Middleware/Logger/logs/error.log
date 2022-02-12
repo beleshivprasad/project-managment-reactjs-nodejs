@@ -142,3 +142,60 @@ error: [{"value":"shiv@gmail.com","msg":"User does not Exists","param":"email","
 error: Error: Not Found: /user/login  {"timestamp":"2022-02-08T10:49:39.666Z"}
 error: Error: Not Found: /favicon.ico  {"timestamp":"2022-02-08T10:49:39.918Z"}
 error: Error: Not Found: /user/login  {"timestamp":"2022-02-08T10:50:40.957Z"}
+error: Error: Not Found: /user/user/login  {"timestamp":"2022-02-08T17:08:20.849Z"}
+error: Error: Not Found: /user/user/login  {"timestamp":"2022-02-08T17:08:46.335Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:09:48.982Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:09:57.115Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:10:37.102Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:16:15.841Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:16:50.215Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:17:16.786Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:17:24.020Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:17:34.317Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:17:37.445Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:17:45.207Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:17:46.549Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:18:26.473Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:18:43.718Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:18:54.210Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:19:29.530Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:20:49.450Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:21:07.602Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:21:32.333Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:24:01.824Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:28:34.097Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:29:33.655Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:31:57.898Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:32:02.968Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:32:34.227Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:32:35.787Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:32:37.709Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:32:47.987Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:33:20.037Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:33:20.962Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:34:07.692Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:34:08.550Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:34:09.079Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:34:45.995Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:34:47.032Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:35:05.052Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:36:57.688Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T17:37:56.493Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:08:25.164Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:10:18.733Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T18:13:06.733Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:13:13.542Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"eve.holt@reqres.in","msg":"Email Already Exists","param":"email","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:13:33.419Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T18:15:03.922Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"eve.holt@reqres.in","msg":"Email Already Exists","param":"email","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:15:09.252Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T18:15:45.371Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T18:16:06.397Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T18:16:57.304Z"}
+error: [{"value":"eve.holt@reqres.in","msg":"User does not Exists","param":"email","location":"body"}] {"timestamp":"2022-02-08T18:17:04.353Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"eve.holt@reqres.in","msg":"Email Already Exists","param":"email","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:17:41.457Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"eve.holt@reqres.in","msg":"Email Already Exists","param":"email","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:18:27.750Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"eve.holt@reqres.in","msg":"Email Already Exists","param":"email","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:19:07.208Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"eve.holt@reqres.in","msg":"Email Already Exists","param":"email","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:20:04.793Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"eve.holt@reqres.in","msg":"Email Already Exists","param":"email","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:21:24.254Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"eve.holt@reqres.in","msg":"Email Already Exists","param":"email","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:22:12.982Z"}
+error: [{"value":"","msg":"Minimum Lenght should be 3 characters","param":"fname","location":"body"},{"value":"","msg":"Minimum Lenght should be 3 characters","param":"lname","location":"body"},{"value":"eve.holt@reqres.in","msg":"Email Already Exists","param":"email","location":"body"},{"value":"cityslicka","msg":"Password Dont Match","param":"password","location":"body"}] {"timestamp":"2022-02-08T18:22:38.375Z"}

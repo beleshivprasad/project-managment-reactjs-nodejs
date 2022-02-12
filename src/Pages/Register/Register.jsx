@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Form, Button, Row, Col, Container } from "react-bootstrap";
-import axios from "axios";
 import Main from "../../Components/Main/Main";
 import ErrorMessage from "../../Components//Alerts/ErrorMessage";
 import Loading from "../../Components/Alerts/Loading";
+import { useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
+import { register } from "../../redux/actions/userAction";
 
 const Register = () => {
   const [fname, setFname] = useState("");
@@ -13,62 +15,14 @@ const Register = () => {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [gender, setGender] = useState("");
-  const [message, setMessage] = useState(null);
-  const [error, setError] = useState(false);
-  const [loading, setLoading] = useState(false);
-  const history = useNavigate();
+
+  const dispatch = useDispatch();
+  const userRegister = useSelector((state) => state.userRegister);
+  const { error, success, loading } = userRegister;
 
   const submitHandler = async (e) => {
     e.preventDefault();
-    if (
-      !fname ||
-      !lname ||
-      !email ||
-      !gender ||
-      !password ||
-      !confirmPassword
-    ) {
-      setMessage("All Fields are Required..!");
-      setInterval(() => {
-        setMessage(null);
-      }, 2000);
-    } else if (password !== confirmPassword) {
-      setMessage("Password Don't Match");
-      setInterval(() => {
-        setMessage(null);
-      }, 2000);
-    } else {
-      setMessage(null);
-      try {
-        const config = {
-          headers: {
-            "Content-type": "application/json",
-          },
-        };
-
-        setLoading(true);
-        const { data } = await axios.post(
-          "/users/register",
-          {
-            fname,
-            lname,
-            gender,
-            email,
-            password,
-          },
-          config
-        );
-        localStorage.setItem("userInfo", JSON.stringify(data));
-        history.push("/login");
-        setLoading(false);
-      } catch (error) {
-        setError(error.response.data.message);
-        setLoading(false);
-        setInterval(() => {
-          setError(false);
-        }, 2000);
-      }
-    }
+    dispatch(register(fname, lname, email, gender, password, confirmPassword));
   };
 
   return (
@@ -80,7 +34,7 @@ const Register = () => {
         }}
       >
         <Row>
-          {message && <ErrorMessage variant="danger">{message}</ErrorMessage>}
+          {success && <ErrorMessage variant="danger">{success}</ErrorMessage>}
           {error && <ErrorMessage variant="danger">{error}</ErrorMessage>}
           {loading && <Loading></Loading>}
         </Row>

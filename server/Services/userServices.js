@@ -5,14 +5,14 @@ const generateToken = require("../Auth/generateToken");
 const { logger } = require("../Middleware/Logger/logger");
 
 const register = async (req, res) => {
-  const { fname, lname, email, password } = req.body;
-  const user = await addUserToDB(fname, lname, email, password);
+  const { fname, lname, email, gender, password } = req.body;
+  const user = await addUserToDB(fname, lname, email, gender, password);
   if (user) {
     logger.log("info", `Successfully Registerd : ${user.email}`);
     res.status(201).json(user);
   } else {
     logger.log("error", `Registraion Error : ${user.email}`);
-    res.status(500).json({ error: error });
+    res.status(500).json({ error: "Registration Failed" });
   }
 };
 

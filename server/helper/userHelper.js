@@ -3,13 +3,14 @@ const bcrypt = require("bcryptjs");
 
 const models = require("../models");
 
-const addUserToDB = async (fname, lname, email, password) => {
+const addUserToDB = async (fname, lname, email, gender, password) => {
   const salt = await bcrypt.genSalt(10);
   const hashPassword = await bcrypt.hash(password, salt);
   const user = await models.User.create({
     fname,
     lname,
     email,
+    gender,
     password: hashPassword,
   });
   if (user) {
